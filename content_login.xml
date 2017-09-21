@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_deep_purple_100"
+    >
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:paddingTop="@dimen/paddingTop"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:paddingTop="@dimen/paddingTop"
+        />
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:text="@string/login"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddingTop"
+        />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:text="Dont have an account? Signup"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/paddingTop"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:onClick="Create Account"
+        android:background="@color/material_deep_purple_100"
+
+        />
+</LinearLayout>
+
